@@ -1,6 +1,6 @@
 {
   "name": "pickly_commons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "common packages for pickly microservices",
   "main": "lib/index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Sahl-A/pickly_commons#readme",
   "dependencies": {
+    "express-rate-limit": "^5.2.6",
     "helmet": "^4.5.0"
   }
 }
