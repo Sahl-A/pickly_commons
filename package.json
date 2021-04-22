@@ -1,0 +1,22 @@
+{
+  "name": "pickly_commons",
+  "version": "1.0.0",
+  "description": "common packages for pickly microservices",
+  "main": "lib/indes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahl-A/pickly_commons.git"
+  },
+  "author": "Sahl-khalifa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahl-A/pickly_commons/issues"
+  },
+  "homepage": "https://github.com/Sahl-A/pickly_commons#readme",
+  "dependencies": {
+    "helmet": "^4.5.0"
+  }
+}
