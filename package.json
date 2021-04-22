@@ -1,14 +1,15 @@
 {
   "name": "pickly_commons",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "common packages for pickly microservices",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sahl-A/pickly_commons.git"
+    "url": "https://github.com/Sahl-A/pickly_commons.git"
   },
   "author": "Sahl-khalifa",
   "license": "ISC",
@@ -18,6 +19,11 @@
   "homepage": "https://github.com/Sahl-A/pickly_commons#readme",
   "dependencies": {
     "express-rate-limit": "^5.2.6",
-    "helmet": "^4.5.0"
+    "global": "^4.4.0",
+    "helmet": "^4.5.0",
+    "semantic-release-cli": "^5.4.3"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.4.2"
   }
 }
