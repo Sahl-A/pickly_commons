@@ -10,11 +10,17 @@ This library to include all pickly common features that will be used in all micr
 
   1. create github token: https://github.com/semantic-release/github
   2. Add the generated token as a secret in the github repo with name GH_TOKEN
-  3. yarn add global semantic-release-cli
+  3. npm install -g semantic-release-cli
   4. in the project root directory, run the following:
-  5. npx semantic-release-cli setup, it will ask questions, follow them and provide the github token then choose github actions in CI
+  5. semantic-release-cli setup, it will ask questions, follow them and provide the github token then choose github actions in CI
   6. Once finished, it will add changes to package.json, e.g, add semantic release script, add it to dependencies, convert the repository url to https
   7. Then add release.yaml inside .github/workflows as we will use github actions for our CI.
+  8. Add configuration as releaserc.yaml in project root directory with
+
+  ```
+  branches:
+  - main
+  ```
 
 - commitizen
   1. Add commitizen locally: `npm install --save-dev commitizen`
