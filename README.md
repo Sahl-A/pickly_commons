@@ -19,7 +19,7 @@ This library to include all pickly common features that will be used in all micr
      - make sure to add GH_TOKEN & NPM_TOKEN as environment variables. The NPM_TOKEN will be added to the repo secrets automatically when running the CI action
      - make sure to enable the npm package to work with github CI:
        -- https://github.blog/changelog/2020-10-02-npm-automation-tokens/
-  8. Add configuration as releaserc.yaml in project root directory with
+  8. Add the following configuration in releaserc.yaml in project root directory:
 
   ```
   branches:
