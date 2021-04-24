@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  Test:
+  create_new_release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
@@ -22,4 +22,5 @@ jobs:
       - name: Create new release
         env:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
