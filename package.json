@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Sahl-A/pickly_commons#readme",
   "dependencies": {
+    "compression": "^1.7.4",
     "express-rate-limit": "^5.2.6",
     "global": "^4.4.0",
     "helmet": "^4.5.0",
